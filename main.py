@@ -190,4 +190,5 @@ for y in range(5):
     cell.text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER.CENTER  # Центр
     cell.vertical_anchor = MSO_ANCHOR.MIDDLE  # Центр
 
+print(13)
 prs.save(Name)
